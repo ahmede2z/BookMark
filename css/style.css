@@ -1,0 +1,27 @@
+body {
+    padding: 50px 0;
+    font-family: arial;
+    line-height: 2rem;
+}
+
+.big {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.desc {
+    background-color: #EEE;
+    padding: 40px 80px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#EEE, #FFF);
+    padding: 40px 20px;
+}
+.info h2{
+    font-size:  1.5rem;
+    font-weight: bold;
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!-- header -->
+
+<head>
+  <!-- meta -->
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="......">
+  <meta name="keywords" content="......">
+  <!-- title -->
+  <title>Bookmark</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- MY-CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<!-- body -->
+
+<body>
+  <div class="container">
+    <h1 class="text-muted font-weight-bolder mb-5">Bookmarker</h1>
+    <div class="col-12 py-3 px-4  big">
+      <div class="desc text-center mb-4">
+        <h3 class="mb-4">Bookmark your favorite sites</h3>
+
+          <div class="form-group">
+            <label>Site Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Bookmark Name">
+          </div>
+          <div class="form-group">
+            <label>Site URL</label>
+            <input type="text" class="form-control" id="inpurUrl" placeholder="website URL">
+          </div>
+          <button onclick="addInfo()" class="btn btn-primary">Submit</button>
+      </div>
+      <div class="m-0" id="userInfo">
+      </div>
+    </div>
+    <p class="my-5 text-muted font-weight-bolder">© 2019 Bookmarker Inc.</p>
+  </div>
+
+  <!-- JS -->
+  <!-- My-JS -->
+  <script src="js/js.js"></script>
+</body>
+
+</html>
